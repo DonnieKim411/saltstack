@@ -1,7 +1,7 @@
 install_apache:
     pkg.installed:
         - pkgs:
-            - httpd
+            - apache2
 index_htmml:
     file.managed:
         - name: /var/www/html/index.html
@@ -12,5 +12,5 @@ index_htmml:
 
 apache_service:
     service.running:
-        - name: httpd
+        - name: apache2
         - enable: True
