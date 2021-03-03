@@ -2,7 +2,7 @@ install_apache:
     pkg.installed:
         - pkgs:
             - apache2
-index_htmml:
+index_html:
     file.managed:
         - name: /var/www/html/index.html
         - user: apache
