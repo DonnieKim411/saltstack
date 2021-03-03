@@ -1,7 +1,4 @@
-base:
-    '*':
-        - requirements
-        - users
-        - ssh
-        - logging
-        - ruby
+'*':
+
+'AuroraAIDev':
+    - apache
