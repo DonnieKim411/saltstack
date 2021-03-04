@@ -1,2 +1,2 @@
-# saltstack
-salt stack 
+# saltstates
+All salt envs 
